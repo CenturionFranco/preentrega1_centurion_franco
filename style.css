@@ -1,0 +1,134 @@
+
+body{
+    background-color: black;
+}
+
+
+.formulario{
+	-webkit-animation: puff-in-bottom 700ms cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-bottom 700ms cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes puff-in-bottom {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-bottom {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+
+  
+
+  
+ .contact {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+ } 
+
+form {
+
+    background-color: #19191b42;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(4, 178, 100, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+}
+
+label {
+    color:rgba(248, 254, 255, 0.967);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #edfff0;
+    border: 2px solid #f0faf1;
+    color: black;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #283629;
+}
+
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;   
+}
+
+.form-txt a {
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.botn{
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    background-color: #283629;
+    box-shadow: 0 0 20px rgba(4, 178, 100, 0.2);
+    cursor: pointer;
+}
+
+.botn:hover {
+    background-color: rgba(19, 36, 133, 0.47);
+}
